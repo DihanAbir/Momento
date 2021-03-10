@@ -2,8 +2,6 @@ import React from 'react'
 import {useSelector} from 'react-redux';
 
 import Post from './Post/post' ; 
-
-
 import useStyle from "./Styles";
 
 function Posts() {   
@@ -15,7 +13,7 @@ function Posts() {
 
     return ( 
         <div>
-            <h2>Posts </h2>
+            <h2>Posts</h2>
             <Post/>     
             <Post/>     
             <Post/>     
